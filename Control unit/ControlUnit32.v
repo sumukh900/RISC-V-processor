@@ -3,6 +3,8 @@ module ControlUnit32 (
     input  wire        reset,         // Reset signal
     input  wire [31:0] instruction,   // Instruction from instruction memory
     input  wire        div_ready,     // Division operation ready flag from ALU
+    input  wire [31:0] rdata1,
+    input  wire [31:0] rdata2,
 
     // Register File Control Signals
     output wire        reg_write_en,  // Register write enable
