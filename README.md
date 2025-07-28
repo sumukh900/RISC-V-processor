@@ -185,6 +185,7 @@ Potential areas for expansion include:
 - Integration of cache memory hierarchy
 - Support for interrupts and exceptions
 - Implementation of virtual memory management
+  
 I plan to extend this processor into a 5-stage pipelined RISC-V architecture, addressing:
 - Data hazards using forwarding and hazard detection units
 - Control hazards via basic branch prediction and stall logic
